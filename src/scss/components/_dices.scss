@@ -1,0 +1,20 @@
+.dices {
+    display: flex;
+    gap: 20px;
+    .dice {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #000;
+        color: #fff;
+        font-size: 16px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: royalblue;
+        &[data-check="true"] {
+            background-color: #333;
+        }
+    }
+
+}

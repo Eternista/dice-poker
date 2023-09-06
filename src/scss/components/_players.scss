@@ -1,0 +1,20 @@
+.single-player {
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.roll-btn {
+    margin: 20px auto 0;
+    display: block;
+    width: 150px;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid #333;
+    background-color: royalblue;
+    color: #fff;
+    border-radius: 8px;
+    text-transform: uppercase;
+    &:active {
+        background-color: deepskyblue;
+    }
+}
